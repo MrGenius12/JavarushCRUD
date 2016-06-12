@@ -7,6 +7,7 @@ import java.util.Date;
 @Table(name = "User")
 public class User {
 
+
 	@Id
 	@Column(name = "ID", unique = true)
 	@GeneratedValue
